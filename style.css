@@ -1,0 +1,499 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    
+    
+}
+
+.over {
+    width: 1300px;
+    margin: 0 auto;
+}
+/* ------- top buttons ----------*/
+.navBar{
+    max-width: 1300px;
+    display: flex;
+    margin-bottom:10px;
+}
+
+.logo{
+    flex: 2.5;
+    display: flex;
+    justify-content: center; 
+    margin-top: 10px;   
+}
+
+.mainMenu{
+    flex: 6;
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+    line-height: 60px;
+}
+
+.sideMenu{
+    flex: 3;
+    display: flex;
+    
+    justify-content: center;
+    margin: auto;
+}
+
+.blog{
+    height: 50px;   
+}
+
+.home{
+    border-top: 4px solid red;
+    color: red;
+    line-height: 60px;
+    
+}
+
+.login{
+    flex:1;
+    margin-left: 50px;
+}
+
+.register{
+    flex:1.5;
+    margin-left:20px;
+}
+
+.searchIcon{
+    flex:0.5;
+    margin-left:20px;
+}
+
+.en{
+    flex:3;
+    margin-left:20px;
+}
+
+/*---------------main picture ---------*/
+
+.picture{
+   max-width:1300px;
+   position: relative;
+    z-index: -5;
+}
+
+.mainPicture {
+    display:flex;
+}
+
+.picture-content
+{
+    margin-left: 9%;
+    position: absolute;
+    color: white;
+    font-size: 25px;
+    width: 550px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  
+    height:409px;
+}
+.hi-tech{
+    background-color: red;
+    padding:1px;
+    border:2px solid red;
+    border-radius: 4px;
+    margin: 0 200px; 
+    
+}
+
+.admins{
+    font-size:18px;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 100px;
+    margin-top: 10px;
+}
+.threeDots{
+    position: relative;
+    color:red;
+    font-size:35px;
+    flex:0;
+    text-align: end;
+    top: 100px;
+}
+    
+/*----------------main------------------------*/
+  
+    
+
+
+.backGround{
+    position: relative;
+    background-color: #f8f8f8;
+    margin: 0 auto;
+    display: flex;
+    width: 1150px;
+
+}
+/*----------------left side------------------------*/
+
+.leftSide{
+    margin-right: 10px;
+    flex:2;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.topic1{
+    flex:1;
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    
+}
+.topic2{
+    flex:1;
+    display: flex;
+    flex-direction: column;
+    
+}
+.topic3{
+    flex:1;
+    
+}
+.topic4{
+    flex:1;
+    
+}
+.topic5{
+    flex:1;
+    
+}
+
+.topic-container {
+    flex:1;
+}
+
+.topic1-1{
+    flex: 1;
+    
+}
+
+.fear{
+    width: 100%;
+    flex: 1;
+}
+.leftArticle1{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-between;
+    
+}
+.leftAdmin{
+    color: grey;
+    margin-bottom: 40px;
+    text-align: space;
+    word-spacing: 7px;
+    font-size: 13px;
+}
+
+.product{
+    background-color: red;
+    padding:1px;
+    border:2px solid red;
+    border-radius: 4px;
+    margin: 10px 295px; 
+    color: white;
+}
+.certainty{
+    font-size: 18px;
+    margin-bottom: 15px;
+    color: #4D4F5C;
+    
+}
+.read1{
+    color: red;
+    text-align: end;
+    margin-bottom: 15px;
+}
+.read2{
+    color: red;
+    text-align: end;
+    margin-bottom: 30px;
+   
+}
+
+.text1{
+    color: #7C7C91;
+    font-size: 12.7px;
+    margin:7px 5px 7px 4px;
+    margin-bottom: 15px;
+
+}
+hr{
+    border-top: 1px dashed rgb(136, 133, 133);
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.topic1-1{
+    flex: 1;    
+}
+
+.girl{
+    width: 100%;
+    flex: 1;
+}
+.desert{
+    width: 100%;
+    flex: 1;
+}
+.rope{
+    width: 100%;
+    flex: 1;
+}
+.campFire{
+    width: 100%;
+    flex: 1;
+}
+.spaces{
+    margin-left:20px;
+}
+
+/*--------------- right side -------------------*/
+.rightSide{
+    
+    flex:1.1;
+    display: flex;
+    flex-direction: column;
+    margin-left:55px;
+    
+}
+.populars{
+    color: red;
+    font-size:15px;
+   
+    margin-bottom: 30px;
+}
+
+
+.popular{
+    display: flex;
+    flex-direction: column;
+    margin-top:10px;
+    display: flex;
+    justify-content: flex-start;
+       
+}
+
+.popularPics{
+    display: flex;
+    justify-content: space-between;
+}
+.popularPic1{
+    flex: 1;
+}
+.popularArticle1{
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+   
+}
+.rightFear{
+    width: 95%;
+}
+.wording{
+    color:#4D4F5C;
+    text-align: left;
+    font-size: 16px; 
+    margin: 0px 8px 0px 9px;
+}
+.rightAdmin{
+    font-size: 10px;
+    margin: 3px 19px 0px 10px;
+    display: flex;
+    justify-content: space-around;
+    
+}
+.rightGirl{
+    width: 95%;
+}
+.rightGirlRed{
+    width: 95%;
+}
+.rightWindGirl{
+    width: 95%;
+}
+.balloon{
+    width: 95%;
+}
+.ourPost{
+        color: red;
+        font-size:15px;
+        flex: 0.3;
+        margin-bottom: 10px;
+        
+        margin-top: 45px;
+        color: red;
+        padding-bottom: 10px;
+        border-bottom: 2px solid red;
+        margin-top: 18px; 
+}
+
+.manStaring{
+    width: 100%;
+    position: relative;
+   
+   
+}
+.manStaringP{
+    
+    position: relative;
+   
+}
+.photography{
+    font-size:10px;
+    color: white;
+    background-color: red;
+    padding:3px;
+    border:2px solid red;
+    border-radius: 5px;
+    position: absolute;
+    top: 10px;
+    left: 15px;
+}
+
+.ourAdmin{
+    color:919192;
+    display: flex;
+    justify-content: space-between;
+    width: 250px;
+    font-size: 10px;
+   margin-top: 0px;
+   margin-bottom: 15px;
+}    
+.catus{
+    width: 100%;
+    
+}
+.heartBalloon{
+    width: 100%;
+    
+}
+.girlsEye{
+    width: 100%;
+    
+}
+
+.ceta{
+    color: #4d4f5c;
+    font-size: 14px;
+    padding-bottom: 8px;
+    margin-bottom: 10px;
+    border-bottom: 2px dashed#b4b4b6;
+    margin-top: 10px;
+}
+.rightTags{
+    display:flex;
+    width: 100%;
+}
+.rightTags1{
+    display: flex;
+    justify-content: flex-start;
+    font-size: 20px;
+
+}
+.rightTags2{
+    display: flex;
+    justify-content: flex-start;
+    font-size: 20px;
+
+}
+.rightTags3{
+    display: flex;
+    justify-content: flex-start;
+    font-size: 20px;
+
+}
+.rightTags4{
+    display: flex;
+    justify-content: flex-start;
+    font-size: 20px;
+}
+
+.rightTags1 span{
+    color: #707070;
+    border: 2px solid #E8E8E8;
+    padding: 4px;
+    background-color: #E8E8E8;
+    border-radius: 5px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
+.rightTags2 span{
+    color: #707070;
+    border: 2px solid #E8E8E8;
+    padding: 2.6px;
+    background-color: #E8E8E8;
+    margin-right: 20px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+
+
+}
+.rightTags3 span{
+    color: #707070;
+    border: 2px solid #E8E8E8;
+    padding: 2.5px;
+    background-color: #E8E8E8;
+    margin-right: 20px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+
+
+}
+.rightTags4 span{
+    color: #707070;
+    border: 2px solid #E8E8E8;
+    padding: 3px;
+    background-color: #E8E8E8;
+    margin-right: 20px;
+    border-radius: 5px;
+}
+.basketBall{
+    width: 100%;
+}
+.rightWord{
+    margin-bottom: 5px;
+    color: #4D4F5C;
+}
+.submit{
+    color: white;
+    background-color: red;
+    border: 3px red;
+    padding: 10px;
+    width: 100px;
+    border-radius: 4px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.results{
+    text-align: center;
+    margin-top: 0;
+}
+
+
+.populars {
+    color: red;
+    font-size: 15px;
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+    border-bottom: 2px solid red;
+    margin-top: 18px;
+    width: 100%;
+    
+}
